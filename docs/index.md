@@ -1,25 +1,30 @@
-# 🎮 魔物獵人 Discord Bot 使用指南
+# 🎮 暮噤蟬鳴 TWCBot 使用指南
 
 <p align="center">
-  <img src="https://cdn.iconscout.com/icon/free/png-256/free-target-3702509-3089113.png" width="80" />
-</p>
+  專為魔物獵人設計的群組和Discord Bot，讓獵人交流與組隊更方便
 
-<p align="center">
-  專為魔物獵人社群打造的全能 Discord Bot
 </p>
 
 ---
 
 ## 🌟 功能總覽
 
-### 📝 玩家註冊（新血報到）
-![](https://cdn.iconscout.com/icon/free/png-256/free-user-add-3702140-3088653.png)
+## 新血報到
+![](./assets/register0.png)
 
-- 建立專屬獵人名片  
-- 登記遊戲 ID、擅長武器、主要上線時段  
-- 讓獵友更容易找到你
+### 📝 開始新血報到
+- 就在新血報到頻道的按鈕![](./assets/register.png)
+- 只要點幾個按鍵登記遊戲名稱、遊戲 ID 與上線時段
+- 不強迫改伺服器暱稱、不強迫蒐集個人隱私
+- 組隊同樂不再需要自報ID和暱稱，輕鬆組隊
+![](./assets/register2.png)
 
 ---
+
+### 💳 建立專屬獵人名片
+- 就在新血報到頻道的按鈕![](./assets/card.png)
+- 給大家一個認識自己的機會
+ 
 
 ### 👥 獵友招募系統
 ![](https://cdn.iconscout.com/icon/free/png-256/free-users-group-3702231-3088743.png)
