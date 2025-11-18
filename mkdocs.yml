@@ -1,4 +1,4 @@
-site_name: 魔物獵人 Discord Bot 使用指南
+site_name: 暮噤蟬鳴 DiscordBot ✿ 魔物獵人社群 
 site_description: 完整的 Bot 功能說明與使用教學
 site_author: 暮蟬BOT
 
@@ -7,28 +7,26 @@ theme:
   name: material
   language: zh-TW
   palette:
-    # 淺色模式
-    - scheme: default
-      primary: blue
-      accent: blue
+    # 深色模式（預設）
+    - scheme: slate
+      primary: grey
+      accent: grey
       toggle:
         icon: material/brightness-7
-        name: 切換到深色模式
-    # 深色模式
-    - scheme: slate
-      primary: blue
-      accent: blue
+        name: 切換到淺色模式
+    # 淺色模式
+    - scheme: default
+      primary: grey
+      accent: grey
       toggle:
         icon: material/brightness-4
-        name: 切換到淺色模式
+        name: 切換到深色模式
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
-    - navigation.top
     - search.suggest
     - search.highlight
-    - content.code.annotate
 
 # 插件
 plugins:
@@ -53,7 +51,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.com
+      link: https://discord.gg/Z6CqUTcxNn
   version:
     provider: mike
 

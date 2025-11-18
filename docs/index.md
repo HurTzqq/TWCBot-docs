@@ -1,71 +1,90 @@
-# 歡迎使用魔物獵人 Discord Bot
+# 🎮 魔物獵人 Discord Bot 使用指南
 
-<div style="text-align: center; margin: 2rem 0;">
-  <h2>🎮 專為魔物獵人社群設計的 Discord Bot</h2>
-  <p style="font-size: 1.2em; color: #666;">
-    提供完整的玩家註冊、組隊招募、大小金管理等功能
-  </p>
-</div>
+<p align="center">
+  <img src="https://cdn.iconscout.com/icon/free/png-256/free-target-3702509-3089113.png" width="80" />
+</p>
 
-## 🌟 功能特色
-
-### 📝 新血報到系統
-完整的玩家註冊流程，記錄您的遊戲資訊、擅長武器、出沒時間等，讓其他獵人更容易找到您！
-
-### 👥 獵友招募系統
-輕鬆建立招募隊伍，設定大廳類型、隊伍人數、招募條件，快速找到志同道合的獵友！
-
-### 👑 大小金系統
-- **持有金冠管理**：記錄您持有的金冠任務及剩餘次數
-- **需求金冠登記**：登記您需要的金冠，讓系統自動配對
-- **公開展示**：將您的持有/需求金冠公開到頻道，方便其他獵人查看
-
-### 🎯 大小金開團
-使用您持有的金冠任務建立臨時隊伍，招募其他獵人一起完成金冠任務！
-
-### 🔍 大小金自動配對
-系統會自動為需求金冠的玩家配對持有該金冠的玩家，讓交換更有效率！
+<p align="center">
+  專為魔物獵人社群打造的全能 Discord Bot
+</p>
 
 ---
 
-## 🚀 快速開始
+## 🌟 功能總覽
 
-1. **新血報到**：使用 `/新血報到` 指令完成註冊
-2. **查看功能**：前往各個功能頻道查看可用功能
-3. **開始使用**：根據需求使用不同的功能按鈕
+### 📝 玩家註冊（新血報到）
+![](https://cdn.iconscout.com/icon/free/png-256/free-user-add-3702140-3088653.png)
+
+- 建立專屬獵人名片  
+- 登記遊戲 ID、擅長武器、主要上線時段  
+- 讓獵友更容易找到你
+
+---
+
+### 👥 獵友招募系統
+![](https://cdn.iconscout.com/icon/free/png-256/free-users-group-3702231-3088743.png)
+
+- 建立組隊招募，設定條件與隊伍類型  
+- 支援公開大廳、社群大廳、自訂大廳  
+- 讓隊友快速加入你的狩獵
+
+---
+
+### 👑 大小金系統
+![](https://cdn.iconscout.com/icon/free/png-256/free-crown-186-116256.png)
+
+- **持有金冠管理**：紀錄你的金冠任務與剩餘次數  
+- **需求金冠登記**：讓系統為你尋找持有者  
+- **公開展示**：讓其他獵人查看你的持有/需求
+
+---
+
+### 🎯 大小金開團
+![](https://cdn.iconscout.com/icon/free/png-256/free-swords-1720942-1462847.png)
+
+- 使用持有的金冠建立限時隊伍  
+- 一鍵招募其他獵人加入金冠任務
+
+---
+
+### 🔍 大小金自動配對
+![](https://cdn.iconscout.com/icon/free/png-256/free-compare-2971317-2468067.png)
+
+- 自動為「需求金冠玩家」尋找「持有該金冠的玩家」  
+- 對等交換自動判定  
+- 最多顯示 3 位可交換對象，避免洗頻
+
+---
+
+## 🚀 如何開始？
+
+1. 使用 `/新血報到` 完成註冊  
+2. 前往各功能頻道查看可用功能  
+3. 按照需求使用「招募」、「大小金管理」、「開團」等功能按鈕  
 
 ---
 
 ## 📚 使用指南
 
-- [快速開始](getting-started.md) - 初次使用必讀
-- [新血報到系統](features/registration.md) - 玩家註冊教學
-- [獵友招募系統](features/team-recruitment.md) - 組隊招募教學
-- [大小金系統](features/crown-system.md) - 金冠管理教學
-- [大小金開團](features/crown-team.md) - 金冠任務組隊教學
-- [大小金自動配對](features/crown-matching.md) - 自動配對說明
+- ➤ [快速開始](getting-started.md)  
+- ➤ [新血報到系統](features/registration.md)  
+- ➤ [獵友招募系統](features/team-recruitment.md)  
+- ➤ [大小金系統](features/crown-system.md)  
+- ➤ [大小金開團](features/crown-team.md)  
+- ➤ [自動配對](features/crown-matching.md)  
 
 ---
 
-## 💡 提示
+## 💡 小提醒
 
-- 所有功能都需要先完成新血報到才能使用
-- 遊戲 ID 只能包含英文字母和數字，會自動轉為大寫
-- 隊伍招募會在 Bot 重啟時自動清除
-- 大小金需求超過 7 天會自動清除
-
----
-
-## ❓ 需要幫助？
-
-- 查看 [常見問題](faq.md)
-- 聯繫 [技術支援](support.md)
+- 所有功能都需先完成註冊  
+- 遊戲 ID 僅支援英數字，會自動轉大寫  
+- 伺服器招募在 Bot 重啟後會清除  
+- 大小金需求超過 7 天會自動移除  
 
 ---
 
-<div style="text-align: center; margin-top: 3rem; padding: 2rem; background: #f5f5f5; border-radius: 8px;">
-  <p style="margin: 0; color: #666;">
-    祝您狩獵愉快！🎯
-  </p>
-</div>
+## ❓ 有問題嗎？
 
+- 查看 [常見問題](faq.md)  
+- 聯絡 [技術支援](support.md)
