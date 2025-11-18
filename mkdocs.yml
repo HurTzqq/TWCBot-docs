@@ -1,0 +1,62 @@
+site_name: 魔物獵人 Discord Bot 使用指南
+site_description: 完整的 Bot 功能說明與使用教學
+site_author: 暮蟬BOT
+
+# 主題設定
+theme:
+  name: material
+  language: zh-TW
+  palette:
+    # 淺色模式
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: 切換到深色模式
+    # 深色模式
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: 切換到淺色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+
+# 插件
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# 導航結構
+nav:
+  - 首頁: index.md
+  - 快速開始: getting-started.md
+  - 功能指南:
+    - 新血報到系統: features/registration.md
+    - 獵友招募系統: features/team-recruitment.md
+    - 大小金系統: features/crown-system.md
+    - 大小金開團: features/crown-team.md
+    - 大小金自動配對: features/crown-matching.md
+  - 常見問題: faq.md
+  - 技術支援: support.md
+
+# 額外設定
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.com
+  version:
+    provider: mike
+
+# 版權資訊
+copyright: Copyright &copy; 2024 暮蟬BOT
+

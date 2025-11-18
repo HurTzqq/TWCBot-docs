@@ -1,0 +1,28 @@
+# MkDocs 建置輸出
+site/
+.mkdocs/
+
+# Python（僅用於本地建置）
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 日誌
+*.log
+
